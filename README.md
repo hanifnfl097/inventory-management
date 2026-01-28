@@ -260,15 +260,6 @@ Import `InventoryManagement.postman_collection.json` into Postman:
 - Sample request bodies
 - Test all CRUD operations
 
-## 🔒 Security Features
-
-### Beyond Requirements (Bonus)
-
-- **Pessimistic Locking** - Prevents race conditions in concurrent order creation
-- **Cross-Item Validation** - Proper stock validation when changing item in updates
-- **Negative Quantity Prevention** - Explicit validation in service layer
-- **Soft Delete Pattern** - Data retention for audit trail
-
 ## 🛠️ Tech Stack
 
 - **Java 17**
@@ -321,15 +312,6 @@ Application auto-loads sample data on startup:
 
 **Inventory Transactions:** 9 transactions (8 Top Up, 1 Withdrawal)  
 **Orders:** 10 orders (O1 to O10)
-
-## 🎯 Key Features
-
-✅ **100% Requirement Coverage** - All Excel specifications implemented  
-✅ **Production-Ready** - Transaction management, validation, exception handling  
-✅ **Well-Tested** - 28 unit tests, Postman collection  
-✅ **Developer-Friendly** - Swagger UI, auto-generated docs, sample data  
-✅ **Security Hardened** - Race condition prevention, proper validation  
-✅ **Clean Architecture** - Layered design, DTO pattern, soft delete  
 
 ## 📖 Documentation
 
